@@ -44,7 +44,7 @@ const {width, height} = useWindowSize();
 
   return (
    <Provider>
-    
+    <>
       {/*<Center><Heading p="5"> TWI SDA HYMNAL</Heading></Center>*/}
 		  {<Box zIndex="2" w="100%" position="fixed" display={{ base: 'none', md: 'block' }} bg="blue.700" ><HStack spacing={3}><Box bg="black" ml="3" rounded="md"></Box><Link href='/' _hover={{ color: 'cyan.800' }}><Text p="3" fontSize="16px"> Voting Logo</Text></Link> <Spacer /><Link href='/' _hover={{ color: 'gray.600' }}><Text p="3" fontSize="16px"> Home</Text></Link><Link href='/' _hover={{ color: 'gray.600' }}><Text p="3" fontSize="16px"> Voting</Text></Link><Link href='/' _hover={{ color: 'gray.600' }}><Text p="3" fontSize="16px"> FAQ</Text></Link><Link href='/' _hover={{ color: 'gray.600' }}><Text p="3" fontSize="16px"> Awards</Text></Link><Link href='/' _hover={{ color: 'gray.600' }}><Text p="3" fontSize="16px"> Results</Text></Link><Link href='/' _hover={{ color: 'gray.600' }}><Text p="3" fontSize="16px"> Login</Text></Link><Spacer /></HStack></Box>}
 		  
@@ -73,7 +73,7 @@ const {width, height} = useWindowSize();
 
 			  {/*<Show when={width < 340}><Box w="100%" bg="gray.900" opacity={"1"} px="3" ><HStack spacing={3} w="100%"><Box w="20%"><Menu> <MenuButton  as={IconButton}> <IconButton size={"sm"} aria-label='Search database' icon={<HamburgerIcon />} /> </MenuButton> <MenuList color={"black"}><MenuItem onClick={() => location.href='/'}>Home</MenuItem><MenuItem onClick={() => location.href='/list'}>Index</MenuItem> <MenuItem onClick={() => location.href='/about'}>About</MenuItem> <MenuItem onClick={() => location.href='/pad'}>Number Pad</MenuItem> <MenuItem>Scores</MenuItem> <MenuItem onClick={() => location.href='/stories'}>Stories</MenuItem><MenuItem onClick={() => location.href='/search'}><IconButton mx="35%" size={"md"} aria-label='Search database' icon={<SearchIcon />} /></MenuItem> </MenuList> </Menu></Box><Link onClick={() =>location.href="/"} href='/' _hover={{ color: 'gray.600' }}><Heading size={{base: 'sm', md:'md', lg:null}} p="3" w="60%"> TWI SDA HYMNAL</Text></Link><Box w="20%"><Link href='/search'><IconButton onClick={() => location.href="/search"} mr="3" ml="60%"  size={"sm"} aria-label='Search database' icon={<SearchIcon />} /></Link></Box></HStack></Box></Show>*/}
 
-
+</>
  
 </Provider>
   );
