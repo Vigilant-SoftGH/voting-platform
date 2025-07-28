@@ -186,7 +186,7 @@ setName(query);
          </Head>
 		 	  <Header />
 		   <Box shadow="md" w="100%"
-      h={{base:"400px", md:"500px"}}
+      h={{base:"400px", md:"100vh"}}
       bgImage="url('Queen.png')"
       bgPosition="center"
       bgRepeat="no-repeat"
