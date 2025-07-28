@@ -195,7 +195,7 @@ setName(query);
 	  <Center>
         <Box data-state="open"
   _open={{ animationName: "fade-in, scale-in", animationDuration: "300ms" }}
-  _closed={{ animationName: "fade-out, scale-out", animationDuration: "120ms" }} zIndex="1" m={{base: "70px", md:"100px"}} rounded="md" bg="gray.500" lineHeight={1} w="60%" h="60%" py="10%" opacity="0.93">
+  _closed={{ animationName: "fade-out, scale-out", animationDuration: "120ms" }} zIndex="1" m={"10%"} rounded="md" bg="gray.500" lineHeight={1} w="60%" h="60%" py="10%" opacity="0.93">
          
 <Center h="100%">
         <VStack spacing={6} w={{ base: '90%', md: '70%', lg: '50%' }} textAlign="center">
